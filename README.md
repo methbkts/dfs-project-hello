@@ -9,7 +9,9 @@ Requirements
 
   * PHP 7.2.9 or higher;
   * PDO-SQLite PHP extension enabled;
-  * and the [usual Symfony application requirements][2].
+  * the [usual Symfony application requirements][2].
+  * the [Symfony binary][5]
+  * and [Composer][6]
 
 Installation
 ------------
@@ -18,13 +20,9 @@ Installation
 this command:
 
 ```bash
-$ symfony new --demo my_project
-```
-
-Alternatively, you can use Composer:
-
-```bash
-$ composer create-project symfony/symfony-demo my_project
+$ git clone https://github.com/methbkts/dfs-project-hello
+$ cd dfs-project-hello/
+$ composer install
 ```
 
 Usage
@@ -34,7 +32,7 @@ There's no need to configure anything to run the application. If you have
 [installed Symfony][4] binary, run this command:
 
 ```bash
-$ cd my_project/
+$ cd dfs-project-hello/
 $ symfony serve
 ```
 
@@ -50,7 +48,7 @@ Tests
 Execute this command to run tests:
 
 ```bash
-$ cd my_project/
+$ cd dfs-project-hello/
 $ ./bin/phpunit
 ```
 
@@ -58,3 +56,5 @@ $ ./bin/phpunit
 [2]: https://symfony.com/doc/current/reference/requirements.html
 [3]: https://symfony.com/doc/current/cookbook/configuration/web_server_configuration.html
 [4]: https://symfony.com/download
+[5]: https://github.com/symfony/cli
+[6]: https://getcomposer.org/download/
