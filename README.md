@@ -1,7 +1,7 @@
 Symfony Demo Application
 ========================
 
-The "Symfony Demo Application" is a reference application created to show how
+The `Symfony Demo Application` is a reference application created to show how
 to develop applications following the [Symfony Best Practices][1].
 
 Requirements
@@ -10,14 +10,11 @@ Requirements
   * PHP 7.2.9 or higher;
   * PDO-SQLite PHP extension enabled;
   * the [usual Symfony application requirements][2].
-  * the [Symfony binary][5]
-  * and [Composer][6]
+  * the [Symfony binary][4]
+  * and [Composer][5]
 
 Installation
 ------------
-
-[Download Symfony][4] to install the `symfony` binary on your computer and run
-this command:
 
 ```bash
 $ git clone https://github.com/methbkts/dfs-project-hello
@@ -56,5 +53,4 @@ $ ./bin/phpunit
 [2]: https://symfony.com/doc/current/reference/requirements.html
 [3]: https://symfony.com/doc/current/cookbook/configuration/web_server_configuration.html
 [4]: https://symfony.com/download
-[5]: https://github.com/symfony/cli
-[6]: https://getcomposer.org/download/
+[5]: https://getcomposer.org/download/
