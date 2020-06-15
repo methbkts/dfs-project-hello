@@ -17,7 +17,7 @@ Installation
 ------------
 
 ```bash
-$ git clone https://github.com/methbkts/dfs-project-hello
+$ git clone https://github.com/methbkts/dfs-project-hello.git
 $ cd dfs-project-hello/
 $ composer install
 ```
